@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+body{
+  background-color: aquamarine
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  position: relative;
+  left: 6.69%;
+  right: 88.62%;
+  top: 4.17%;
+  bottom: 91.76%;
+  
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  
+  color: #1A1B1C;
 }
+.sidepart{
+  position: absolute;
+left: 6%;
+right: 83.25%;
+top: 15.74%;
+bottom: 48.61%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 35px;
+/* or 159% */
+
+
+color: #2289FF;
+
 }
+.userdetail{
+  position: absolute;
+left: 21.94%;
+right: 67.75%;
+top: 5%;
+bottom: 92.69%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+color: #B4B4C6;
 }
+.username{
+  position: absolute;
+left: 90.12%;
+right: 3.56%;
+top: 4.63%;
+bottom: 92.78%;
 
-.App-link {
-  color: #61dafb;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #A6A6A6;
 }
+.container{
+  border: 2px solid black;
+  position: absolute;
+left: 22.62%;
+right: 53.81%;
+top: 14.91%;
+bottom: 79.17%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+background: #FFFFFF;
+
+}
+input{
+  position: absolute;
+left: 22.62%;
+right: 53.81%;
+top: 14.91%;
+bottom: 79.17%;
+
+background: #FFFFFF;
+}
+#btn{
+  position: absolute;
+left: 86.31%;
+right: 2.31%;
+top: 14.91%;
+bottom: 79.17%;
+
+background: #6AB4F8;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);
+}
+.innertable{
+  border: 1px solid black;
+  position: absolute;
+  margin-left: 400px;
+}
+th{
+  border: 1px solid black;
 }
