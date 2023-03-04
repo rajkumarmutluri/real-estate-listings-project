@@ -1,109 +1,112 @@
-body{
+body {
   background-color: aquamarine
 }
 
-.logo{
+.logo {
   position: relative;
   left: 6.69%;
   right: 88.62%;
   top: 4.17%;
   bottom: 91.76%;
-  
+
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 44px;
   /* identical to box height */
-  
-  
+
+
   color: #1A1B1C;
 }
-.sidepart{
+
+.sidepart {
   position: absolute;
-left: 6%;
-right: 83.25%;
-top: 15.74%;
-bottom: 48.61%;
+  left: 6%;
+  right: 83.25%;
+  top: 15.74%;
+  bottom: 48.61%;
 
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 35px;
-/* or 159% */
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  /* or 159% */
 
 
-color: #2289FF;
+  color: #2289FF;
 
 }
-.userdetail{
+
+.userdetail {
   position: absolute;
-left: 21.94%;
-right: 67.75%;
-top: 5%;
-bottom: 92.69%;
+  left: 21.94%;
+  right: 67.75%;
+  top: 5%;
+  bottom: 92.69%;
+  height: 100px;
+  width: 70%;
+  background-color: #FFFFFF;
+  border: 1px solid white;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
 
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-
-color: #B4B4C6;
+  color: #B4B4C6;
 }
-.username{
+
+.username {
   position: absolute;
-left: 90.12%;
-right: 3.56%;
-top: 4.63%;
-bottom: 92.78%;
+  left: 90.12%;
+  right: 3.56%;
+  top: 4.63%;
+  bottom: 92.78%;
 
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 28px;
-/* identical to box height */
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
 
 
-color: #A6A6A6;
+  color: #A6A6A6;
 }
-.container{
-  border: 2px solid black;
+
+input {
   position: absolute;
-left: 22.62%;
-right: 53.81%;
-top: 14.91%;
-bottom: 79.17%;
+  left: 22.62%;
+  right: 53.81%;
+  top: 14.91%;
+  bottom: 79.17%;
 
-background: #FFFFFF;
-
+  background: #FFFFFF;
 }
-input{
+
+#btn {
   position: absolute;
-left: 22.62%;
-right: 53.81%;
-top: 14.91%;
-bottom: 79.17%;
+  margin-right: 80%;
 
-background: #FFFFFF;
+  background: #6AB4F8;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);
 }
-#btn{
-  position: absolute;
-left: 86.31%;
-right: 2.31%;
-top: 14.91%;
-bottom: 79.17%;
 
-background: #6AB4F8;
-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);
-}
-.innertable{
+.innertable {
   border: 1px solid black;
   position: absolute;
   margin-left: 400px;
 }
-th{
+
+th {
   border: 1px solid black;
+}
+.table-container{
+  margin-top: 150px;
+  border: 1px solid white;
+  height:50%;
+  width: 60%;
+  background-color: white;
 }
